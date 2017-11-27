@@ -3,12 +3,21 @@
   <head>
     <meta charset="UTF-8">
     <title>Fluid Player</title>
+    <script src="./renderer/renderer.js"></script>
+        <script>
+            (function () {
+                readFolder('/');
+            })();
+        </script>
   </head>
   <body>
-
+    <div ><ol id="display-files"></ol></div>
     <div id="content">
-    <a> Hello World</a> </div>
-
-  <script src="public/js/bundle.js"></script>
+    <a> Files in root</a>
+    </div>
+    <script>
+    require('./renderer/renderer.js');
+    </script>
+    <script src="public/js/bundle.js"></script>
   </body>
 </html>
