@@ -1,2 +1,2 @@
-# Fluid
-Music Player/Sample Library Manager
+Fluid
+Electron based Music Player/Sample Library Manager
