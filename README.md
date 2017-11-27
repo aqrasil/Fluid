@@ -1,1 +1,1 @@
-Fluid is an Electron based Music Player/Sample L
+Fluid is an Electron based Music Player/Sample Library Manager
