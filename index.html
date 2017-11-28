@@ -3,15 +3,19 @@
   <head>
     <meta charset="UTF-8">
     <title>Fluid Player</title>
+    <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <script src="./renderer/renderer.js"></script>
-        <script>
-            (function () {
-                readFolder('/');
-            })();
-        </script>
+    <script>
+        (function () {
+            readFolder('/');
+        })();
+    </script>
   </head>
+
   <body>
-    <div ><ol id="display-files"></ol></div>
+    <div><a class="fa fa-address-book"> test </a> </div>
+    <div id="listed-files"></div>
     <div id="content">
     <a> Files in root</a>
     </div>

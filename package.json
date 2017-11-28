@@ -25,6 +25,8 @@
     "soundmanager2": "^2.97.20150601-a"
   },
   "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
     "watchify": "^3.9.0"
   }
 }
